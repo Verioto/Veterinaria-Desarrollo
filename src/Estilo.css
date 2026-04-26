@@ -1,0 +1,542 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f4ef;
+  color: #2f4f46;
+}
+
+.barra-menu {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu {
+  width: 140px;
+  height: 35px;
+  background-color: #68662B;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin: 6px;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.vd_inicio_principal {
+  width: 100%;
+  position: relative;
+  padding: 40px 0 80px 0;
+  overflow: hidden;
+  background-color: #f7f4ef;
+}
+
+.vd_fondo_verde {
+  position: absolute;
+  left: 0;
+  top: 220px;
+  width: 100%;
+  height: 260px;
+  background-color: #dfe7d2;
+  border-top-left-radius: 180px;
+  border-bottom-right-radius: 180px;
+  z-index: 0;
+}
+
+.vd_hero {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.vd_hero_imagen {
+  width: 48%;
+}
+
+.vd_hero_imagen img {
+  width: 100%;
+  display: block;
+  border-radius: 28px;
+}
+
+.vd_hero_texto {
+  width: 48%;
+}
+
+.vd_hero_texto h5 {
+  margin: 0 0 10px 0;
+  color: #68662B;
+  font-size: 14px;
+}
+
+.vd_hero_texto h1 {
+  font-size: 52px;
+  line-height: 1.15;
+  margin: 0 0 20px 0;
+  color: #68662B;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.vd_hero_texto p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #5c5c5c;
+  margin-bottom: 28px;
+  text-align: justify;
+}
+
+.vd_botones_inicio {
+  margin-top: 20px;
+}
+
+.vd_boton_principal {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #c87b4d;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 14px;
+  font-weight: bold;
+}
+
+.vd_boton_secundario {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #efe9de;
+  color: #5b5b5b;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.vd_sobre_nosotros {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 70px 40px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.vd_sobre_etiqueta {
+  color: #68662B;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vd_sobre_titulo {
+  font-size: 42px;
+  color: #1f2a37;
+  margin-bottom: 15px;
+}
+
+.vd_sobre_texto {
+  font-size: 18px;
+  color: #7b7b7b;
+  margin-bottom: 50px;
+}
+
+.vd_sobre_servicios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.vd_servicio_card {
+  width: 280px;
+  text-align: center;
+}
+
+.vd_servicio_card h3 {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.vd_servicio_card p {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.vd_icono_servicio {
+  width: 30%;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.vd_compromiso {
+  width: 88%;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  flex-direction: row-reverse;
+}
+
+.vd_compromiso_imagen {
+  width: 45%;
+}
+
+.vd_compromiso_imagen img {
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+}
+
+.vd_compromiso_texto {
+  width: 48%;
+}
+
+.vd_compromiso_etiqueta {
+  color: #68662B;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.vd_compromiso_titulo {
+  font-size: 42px;
+  line-height: 1.2;
+  color: #1f2a37;
+  margin: 0 0 20px 0;
+}
+
+.vd_compromiso_descripcion {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+.vd_compromiso_lista p {
+  font-size: 17px;
+  color: #68662B;
+  margin: 14px 0;
+}
+
+.vd_compromiso_lista span {
+  color: #68662B;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.vd_compromiso_boton {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 24px;
+  background-color: #68662B;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.vd_estadisticas {
+  width: 88%;
+  margin: 70px auto 0 auto;
+  background-color: #c87b4d;
+  border-radius: 18px;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.vd_estadistica_item h3 {
+  font-size: 54px;
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.vd_estadistica_item p {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.vd_testimonios {
+  width: 88%;
+  margin: 90px auto 0 auto;
+  text-align: center;
+  
+}
+
+.vd_testimonios_titulo {
+  font-size: 42px;
+  color: #68662B;
+  margin-bottom: 12px;
+}
+
+.vd_testimonios_texto {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.vd_testimonios_grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.vd_testimonio_card {
+  width: 31%;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 28px 22px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.vd_testimonio_estrellas {
+  color: #f4b400;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.vd_testimonio_mensaje {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5c6670;
+  margin-bottom: 20px;
+}
+
+.vd_testimonio_card h4 {
+  font-size: 18px;
+  margin: 0 0 4px 0;
+  color: #1f2a37;
+}
+
+.vd_testimonio_card span {
+  font-size: 14px;
+  color: #7b8794;
+}
+
+.vd_contacto {
+  width: 88%;
+  margin: 90px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.vd_contacto_texto {
+  width: 48%;
+}
+
+.vd_contacto_etiqueta {
+  color: #68662B;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.vd_contacto_titulo {
+  font-size: 42px;
+  color: #1f2a37;
+  margin: 0 0 18px 0;
+}
+
+.vd_contacto_descripcion {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.vd_contacto_info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.vd_contacto_item {
+  width: 48%;
+}
+
+.vd_contacto_item h4 {
+  font-size: 20px;
+  color: #1f2a37;
+  margin-bottom: 8px;
+}
+
+.vd_contacto_item p {
+  font-size: 15px;
+  color: #7b8794;
+  margin-bottom: 10px;
+}
+
+.vd_contacto_item strong {
+  font-size: 16px;
+  color: #68662B;
+  line-height: 1.6;
+}
+
+.vd_contacto_mapa img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+.vd_contacto_formulario {
+  width: 48%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.vd_form_fila {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.vd_form_fila input {
+  width: 48%;
+}
+
+.vd_contacto_formulario input,
+.vd_contacto_formulario textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d8dee4;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.vd_contacto_formulario textarea {
+  height: 120px;
+  resize: none;
+}
+
+.vd_check_privacidad {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.vd_check_privacidad input {
+  width: auto;
+  margin: 0;
+}
+
+.vd_contacto_formulario button {
+  width: 100%;
+  padding: 14px;
+  background-color: #68662B;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.vd_icono_cruz {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+  margin: 0 0 15px 0;
+}
+
+.vd_icono_ubicacion {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+  margin: 0 0 15px 0;
+}
+
+.vd_footer {
+  background-color: #68662B;
+  padding: 50px 0 30px 0;
+  margin-top: 40px;
+}
+
+.vd_footer_contenido {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.vd_footer_superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.vd_footer_logo h3 {
+  margin: 0 0 8px 0;
+  font-size: 22px;
+  color: white;
+}
+
+.vd_footer_logo p {
+  margin: 0;
+  font-size: 14px;
+  color: #B9B993;
+}
+
+.vd_footer_menu {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.vd_footer_menu a {
+  color: #B9B993;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.vd_footer_linea {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin: 28px 0 20px 0;
+}
+
+.vd_footer_inferior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.vd_footer_inferior p {
+  margin: 0;
+  font-size: 14px;
+  color: #B9B993;
+}
+
+.vd_footer_inferior a {
+  color: #B9B993;
+  text-decoration: none;
+  font-size: 14px;
+}
