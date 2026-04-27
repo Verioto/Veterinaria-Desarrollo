@@ -541,3 +541,23 @@ body {
   text-decoration: none;
   font-size: 14px;
 }
+
+.vd_perrito_corriendo {
+  position: fixed;
+  bottom: -40px;
+  left: -150px;
+  width: 200px;
+  z-index: 9999;
+  pointer-events: none;
+  animation: vd_correr_perrito 10s linear infinite;
+}
+
+@keyframes vd_correr_perrito {
+  0% {
+    left: -150px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
