@@ -7,7 +7,6 @@ function Navbar() {
       <a className="menu" href="">Inicio</a>
       <a className="menu" href="">Nosotros</a>
       <a className="menu" href="">Servicios</a>
-      <a className="menu" href="">Especialidades</a>
       <a className="menu" href="">Citas médicas</a>
     </nav>
   );
