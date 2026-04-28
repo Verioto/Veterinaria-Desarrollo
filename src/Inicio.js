@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-function Inicio() {
+function Inicio({ setPaginaActual }) {
   const vd_estadisticas_ref = useRef(null);
 
   const [vd_animar_estadisticas, setVd_animar_estadisticas] = useState(false);
@@ -91,10 +91,10 @@ function Inicio() {
           </p>
 
           <div className="vd_botones_inicio">
-            <a className="vd_boton_principal" href="">
+            <a className="vd_boton_principal" href="#" onClick={(e) => { e.preventDefault(); setPaginaActual("citas"); }}>
               Reservar cita
             </a>
-            <a className="vd_boton_secundario" href="">
+            <a className="vd_boton_secundario" href="#" onClick={(e) => { e.preventDefault(); setPaginaActual("servicios"); }}>
               Ver servicios
             </a>
           </div>
@@ -170,7 +170,7 @@ function Inicio() {
             <p><span>✓</span> Compromiso con la salud y felicidad de tu mascota</p>
           </div>
 
-          <a className="vd_compromiso_boton" href="">
+          <a className="vd_compromiso_boton" href="#" onClick={(e) => { e.preventDefault(); setPaginaActual("citas"); }}>
             Contáctanos
           </a>
         </div>

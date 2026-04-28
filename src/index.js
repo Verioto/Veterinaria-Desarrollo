@@ -1,24 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from "./Navbar";
 import Inicio from "./Inicio";
+import Nosotros from "./Nosotros";
+import Servicios from "./Servicios";
+import Citas from "./Citas";
 import Footer from "./Footer";
 import "./Estilo.css";
 
+function App() {
+  const [paginaActual, setPaginaActual] = useState("inicio");
+
+  return (
+    <React.StrictMode>
+      <Navbar paginaActual={paginaActual} setPaginaActual={setPaginaActual} />
+      {paginaActual === "inicio" && <Inicio setPaginaActual={setPaginaActual} />}
+      {paginaActual === "nosotros" && <Nosotros />}
+      {paginaActual === "servicios" && <Servicios />}
+      {paginaActual === "citas" && <Citas />}
+      <Footer setPaginaActual={setPaginaActual} />
+    </React.StrictMode>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Navbar />
-    <Inicio />  
-    <Footer />
+root.render(<App />);
 
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

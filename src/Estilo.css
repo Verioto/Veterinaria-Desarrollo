@@ -561,3 +561,494 @@ body {
     left: 100%;
   }
 }
+
+/* ===================== NAVBAR ACTIVO ===================== */
+
+.menu-activo {
+  background-color: #c87b4d;
+}
+
+/* ===================== SERVICIOS ===================== */
+
+.vd_servicios_principal {
+  width: 100%;
+  background-color: #f7efef;
+  padding: 40px 0 80px 0;
+}
+
+.vd_servicios_encabezado {
+  width: 88%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.vd_servicios_etiqueta {
+  color: #68662B;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.vd_servicios_titulo {
+  font-size: 52px;
+  color: #68662B;
+  margin: 0 0 16px 0;
+  line-height: 1.15;
+}
+
+.vd_servicios_descripcion {
+  font-size: 18px;
+  color: #5c5c5c;
+  line-height: 1.8;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.vd_servicios_especialidades {
+  width: 88%;
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.vd_servicios_especialidades_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+}
+
+.vd_servicios_especialidad_card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.vd_servicios_especialidad_icono {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.vd_servicios_especialidad_card h3 {
+  font-size: 18px;
+  color: #1f2a37;
+  margin: 0;
+}
+
+/* ===================== NOSOTROS ===================== */
+
+.vd_nosotros_principal {
+  width: 100%;
+  background-color: #f7efef;
+  padding: 40px 0 80px 0;
+}
+
+.vd_nosotros_etiqueta {
+  color: #68662B;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+/* Hero nosotros */
+.vd_nosotros_hero {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.vd_nosotros_hero_texto {
+  width: 48%;
+}
+
+.vd_nosotros_titulo {
+  font-size: 52px;
+  line-height: 1.15;
+  color: #68662B;
+  margin: 0 0 20px 0;
+}
+
+.vd_nosotros_descripcion {
+  font-size: 18px;
+  line-height: 32px;
+  color: #5c5c5c;
+  text-align: justify;
+}
+
+.vd_nosotros_hero_imagen {
+  width: 48%;
+}
+
+.vd_nosotros_hero_imagen img {
+  width: 100%;
+  display: block;
+  border-radius: 28px;
+}
+
+/* Misión y Visión */
+.vd_nosotros_mision_vision {
+  width: 88%;
+  margin: 70px auto 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.vd_nosotros_mv_card {
+  width: 48%;
+}
+
+.vd_nosotros_mv_divider {
+  width: 1px;
+  align-self: stretch;
+  background-color: #d8dee4;
+}
+
+.vd_nosotros_mv_titulo {
+  font-size: 28px;
+  color: #1f2a37;
+  margin: 0 0 14px 0;
+  line-height: 1.3;
+}
+
+.vd_nosotros_mv_texto {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Valores */
+.vd_nosotros_valores {
+  width: 88%;
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.vd_nosotros_seccion_titulo {
+  font-size: 42px;
+  color: #1f2a37;
+  margin: 0 0 14px 0;
+}
+
+.vd_nosotros_seccion_texto {
+  font-size: 18px;
+  color: #7b7b7b;
+  margin-bottom: 50px;
+}
+
+.vd_nosotros_valores_grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.vd_nosotros_valor_card {
+  width: 280px;
+  text-align: center;
+}
+
+.vd_nosotros_valor_card h3 {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.vd_nosotros_valor_card p {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Compromiso nosotros */
+.vd_nosotros_compromiso {
+  width: 88%;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.vd_nosotros_compromiso_imagen {
+  width: 45%;
+}
+
+.vd_nosotros_compromiso_imagen img {
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+}
+
+.vd_nosotros_compromiso_texto {
+  width: 48%;
+}
+
+/* Equipo */
+.vd_nosotros_equipo {
+  width: 88%;
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.vd_nosotros_equipo_grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.vd_nosotros_equipo_card {
+  width: 260px;
+  background-color: white;
+  border-radius: 18px;
+  padding: 30px 22px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.vd_nosotros_equipo_avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #68662B;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px auto;
+}
+
+.vd_nosotros_equipo_card h3 {
+  font-size: 18px;
+  color: #1f2a37;
+  margin: 0 0 6px 0;
+}
+
+.vd_nosotros_equipo_card span {
+  font-size: 14px;
+  color: #7b8794;
+}
+
+/* ===================== CITAS ===================== */
+
+.vd_citas_principal {
+  width: 100%;
+  background-color: #f7efef;
+  padding: 40px 0 80px 0;
+}
+
+.vd_citas_encabezado {
+  width: 88%;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.vd_citas_etiqueta {
+  color: #68662B;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.vd_citas_titulo {
+  font-size: 52px;
+  color: #68662B;
+  margin: 0 0 16px 0;
+  line-height: 1.15;
+}
+
+.vd_citas_descripcion {
+  font-size: 18px;
+  color: #5c5c5c;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Layout dos columnas */
+.vd_citas_contenido {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* Info lateral */
+.vd_citas_info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.vd_citas_info_card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.vd_citas_info_card h4 {
+  font-size: 18px;
+  color: #1f2a37;
+  margin: 0 0 6px 0;
+}
+
+.vd_citas_info_card p {
+  font-size: 14px;
+  color: #7b8794;
+  margin: 0 0 8px 0;
+}
+
+.vd_citas_info_card strong {
+  font-size: 16px;
+  color: #68662B;
+}
+
+.vd_citas_horarios {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.vd_citas_horarios h4 {
+  font-size: 18px;
+  color: #1f2a37;
+  margin: 0 0 16px 0;
+}
+
+.vd_citas_horario_fila {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #6b7280;
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.vd_citas_horario_fila:last-child {
+  border-bottom: none;
+}
+
+/* Formulario citas */
+.vd_citas_formulario {
+  width: 66%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.vd_citas_form_titulo {
+  font-size: 16px;
+  color: #68662B;
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f0ece0;
+}
+
+.vd_citas_formulario input,
+.vd_citas_formulario select,
+.vd_citas_formulario textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d8dee4;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #1f2a37;
+}
+
+.vd_citas_formulario .vd_form_fila input,
+.vd_citas_formulario .vd_form_fila select {
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.vd_citas_formulario textarea {
+  height: 120px;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+.vd_citas_formulario button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #68662B;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+/* Confirmación */
+.vd_citas_confirmacion {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.vd_citas_check {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #68662B;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px auto;
+}
+
+.vd_citas_confirmacion h2 {
+  font-size: 32px;
+  color: #1f2a37;
+  margin: 0 0 16px 0;
+}
+
+.vd_citas_confirmacion p {
+  font-size: 17px;
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.vd_citas_btn_nuevo {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #c87b4d;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
