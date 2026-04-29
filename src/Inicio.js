@@ -81,13 +81,11 @@ function Inicio({ setPaginaActual }) {
         </div>
 
         <div className="vd_hero_texto">
-          <h1>Cuidamos cada atención con orden, empatía y confianza</h1>
+          <h1>Tu mascota en manos de una veterinaria con corazón</h1>
           <p>
-            Somos una propuesta digital orientada a mejorar nuestros servicios,
-            especialidades y registro de solicitudes, de manera simple e intuitiva.
-            Nuestro objetivo es facilitar el acceso a la información, presentar
-            los servicios disponibles y permitir el registro de atenciones de forma
-            rápida y ordenada.
+            Acompañamos a tu mascota en cada etapa de su vida con atención cercana,  
+            profesional y de confianza. Nuestro compromiso es ofrecerte un servicio claro, 
+            humano y responsable para que te sientas seguro en cada consulta.
           </p>
 
           <div className="vd_botones_inicio">
